@@ -1,9 +1,9 @@
 
-// Borrowed code from chat gpt to connect to wifi:
+//Never used this library so learning through chatGPT:
 #include <WiFiS3.h>
 
-char ssid[] = "GL-SFT1200-67d";
-char pass[] = "goodlife";
+char ssid[] = "INSERT WIFI SSID";
+char pass[] = "INSERT WIFI PASSWORD";
 
 IPAddress shellyIP(192, 168, 8, 160);
 WiFiClient client;
