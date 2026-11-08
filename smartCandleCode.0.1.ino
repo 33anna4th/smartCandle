@@ -1,7 +1,7 @@
 
 //Never used this library so learning through chatGPT:
 #include <WiFiS3.h>
-
+//will need to insert these variables: 
 char ssid[] = "INSERT WIFI SSID";
 char pass[] = "INSERT WIFI PASSWORD";
 
@@ -47,6 +47,7 @@ else {
 }
 //turning it on initially:
 client.println("GET /rpc/Switch.Set?id=0&on=true HTTP/1.1");
+//may need to update IP address, that is the one that my travel router assigned to my shelly smart plug
 client.println("Host: 1.92.168.8.163");
 client.println("Connection: Close");
 client.println();
